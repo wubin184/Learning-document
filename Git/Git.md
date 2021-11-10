@@ -8,7 +8,7 @@ git config --global user.name "wubin"
 
 [参考Blog](https://blog.csdn.net/weixin_44950987/article/details/102619708?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163650509016780366555406%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=163650509016780366555406&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-102619708.pc_search_result_control_group&utm_term=git%E6%95%99%E7%A8%8B&spm=1018.2226.3001.4187)
 
-![image-20211110141235697](Git.assets/image-20211110141235697.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191018101017227.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk1MDk4Nw==,size_16,color_FFFFFF,t_70)
 
 ## 1、创建版本库。
 
@@ -88,9 +88,9 @@ git reflog
 git commit -m "一次性提交所有文件"
 ```
 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191018142824924.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk1MDk4Nw==,size_16,color_FFFFFF,t_70)
 
 
-![在这里插入图片描述](Git.assets/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk1MDk4Nw==,size_16,color_FFFFFF,t_70-16365247126922.png)
 
 ## 4.Git撤销修改和删除文件操作
 
@@ -125,7 +125,7 @@ git restore -- readme.txt
 
 ### 5.1在github上创建仓库
 
-![image-20211110141259459](Git.assets/image-20211110141259459.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191018162036619.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk1MDk4Nw==,size_16,color_FFFFFF,t_70)
 
 点击“create repository”按钮仓库就创建成功了。
 
@@ -141,6 +141,10 @@ Github支持两种同步方式“https”和“ssh”。
 ```bash
 ssh-keygen -t rsa
 ```
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191018163248135.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk1MDk4Nw==,size_16,color_FFFFFF,t_70)
+
+
 
 ### 5.3同步到远程仓库
 
@@ -171,7 +175,7 @@ git clone git@github.com:wubin184/testgit2.git
 
 接着在我本地目录下 生成`testgit2目录`了
 
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191019001842173.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDk1MDk4Nw==,size_16,color_FFFFFF,t_70)
 
 ### 5.5创建与合并分支
 
